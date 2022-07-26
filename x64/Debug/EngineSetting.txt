@@ -1,0 +1,2 @@
+DLLPath : ATLAT_DX11_Renderer.dll
+ResourcesPath : ../../../Resources/

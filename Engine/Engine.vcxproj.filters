@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{002f0c34-892d-4972-9fdf-8601ee97200b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{1585e466-d441-4503-8acf-9cb45fe9b37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{635d3bb8-938b-4820-9170-60d14cc6d82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{36829730-3567-467c-b920-347894ee424a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{3a4e5087-f0ae-4563-8638-553c1219fc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Render">
+      <UniqueIdentifier>{bb7df568-ad85-4206-9ab3-e9200be7233f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Util">
+      <UniqueIdentifier>{b742b04e-b474-4811-9623-d9f427e737c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{915048ce-3bb1-43ca-b393-230eaa27785a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePch.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Component\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerMask.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePch.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Component\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerMask.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{4f665482-47ef-44e7-849a-dc642faed38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{0c747a5f-8fe3-4830-81cc-91c8c696d0d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCommand.h" />
+    <ClInclude Include="RendererCommonPch.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCommand.cpp" />
+    <ClCompile Include="RendererCommonPch.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Render">
+      <UniqueIdentifier>{2abb7c10-d9d4-4d3a-a765-0158672fce7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{f9f34493-1d1d-4035-9336-62b527b4eaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{5094cb95-3e26-4f1f-865d-b02c423b67f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d2c0029b-8cb3-413f-9d34-49bef006b330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{2308ff3e-efbe-4ec5-9d19-11ac7ce36225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Renderer">
+      <UniqueIdentifier>{631ef37e-6a00-49c3-9774-8219e0339950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{5e3b4046-a6c5-4ffd-bfbe-248c89d3f103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TableDescriptorHeap.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RootSignature.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePch.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ID3D_Renderer.cpp">
+      <Filter>DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DX12Renderer.cpp">
+      <Filter>Render\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCommands.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Render\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RootSignature.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TableDescriptorHeap.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\Inc\ID3D_Renderer.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DX12Renderer.h">
+      <Filter>Render\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCommands.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Render\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

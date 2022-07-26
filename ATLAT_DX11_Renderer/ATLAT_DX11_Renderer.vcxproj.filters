@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{fe418871-ba3b-477e-b351-b3b2d1eb91ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{f63cb633-4e49-4f16-ac47-a31c9deac3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{c11d1ca4-a450-4609-9311-0989f07be455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Renderer">
+      <UniqueIdentifier>{806d6f3a-af70-4156-9200-59a1e34ce23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{8d4365de-f1c6-463a-9b77-bc7f2c20bac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1ce4ef22-e5e8-499d-9257-9ab7076cb686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{175de5ab-0dc8-4d0a-9117-d9f26fa8377a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\Inc\ID3D_Renderer.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>Render\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCommands.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h" />
+    <ClInclude Include="SwapChain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ID3D_Renderer.cpp">
+      <Filter>DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Renderer.cpp">
+      <Filter>Render\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCommands.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp" />
+    <ClCompile Include="SwapChain.cpp" />
+  </ItemGroup>
+</Project>

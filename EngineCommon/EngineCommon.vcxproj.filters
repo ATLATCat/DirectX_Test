@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EngineCommonPch.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Util\Paser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Util\Paser</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineCommonPch.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Util\Paser</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>Util\Paser</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{b167db4e-9882-4ea0-adee-f857ce70fd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{0a92b0b2-417b-49fb-b2d9-7bb121cfa03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{989f000a-d97f-4518-bc12-e479f398d23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Paser">
+      <UniqueIdentifier>{a4fd94fd-fe72-48ae-a1d1-5e02bcbe55a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{88414f28-4455-4af5-9869-003e17136a02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Resources\Shader\Default.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\Resources\Shader\PosColorDefault.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="SimpleMath.inl">
+      <Filter>Util</Filter>
+    </None>
+    <None Include="..\..\Resources\Shader\LightHelper.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\Resources\Shader\Deferred.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\Resources\Shader\Grid.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\Resources\Shader\DefaultSprite.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\Resources\Shader\DeferredDebug.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
